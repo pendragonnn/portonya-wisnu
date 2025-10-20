@@ -1,7 +1,7 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import About from "./About";
-import Projects from "./Project";
+import Projects from "./Projects/Projects";
 import Skills from "./Skills";
 import Contact from "./Contact";
 
@@ -13,7 +13,7 @@ const variants = {
 
 export default function TabContent({ activeTab }) {
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="w-full mx-auto">
       <AnimatePresence mode="wait" initial={false}>
         <motion.div
           key={activeTab}

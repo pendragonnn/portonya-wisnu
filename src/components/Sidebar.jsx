@@ -27,9 +27,12 @@ export default function Sidebar({ activeTab, setActiveTab }) {
               alt="Profile"
               className="w-36 h-36 rounded-full object-cover shadow-md"
             />
-            <h2 className="mt-4 text-xl font-semibold text-[#1B3C53]">[Your Name]</h2>
+            <h2 className="mt-4 text-xl font-semibold text-[#1B3C53]">Wisnu Andika</h2>
+            <p className="mt-2 text-center italic font-bold text-sm text-[#1B3C53]/80 max-w-[220px]">
+              Software Engineer Enthusiast
+            </p>
             <p className="mt-2 text-center text-sm text-[#1B3C53]/80 max-w-[220px]">
-              Fullstack & Mobile Developer — seeking internship & freelance projects.
+              Seeking for job opportunities & freelance projects.
             </p>
           </div>
 
@@ -56,17 +59,17 @@ export default function Sidebar({ activeTab, setActiveTab }) {
         {/* Socials at bottom */}
         <div className="mb-6 flex flex-col items-center gap-3">
           <div className="flex gap-4">
-            <a href="#" aria-label="Github" className="p-2 rounded-md hover:bg-gray-100">
+            <a href="https://github.com/pendragonnn" target="_blank" aria-label="Github" className="p-2 rounded-md hover:bg-gray-100">
               <FiGithub size={20} />
             </a>
-            <a href="#" aria-label="LinkedIn" className="p-2 rounded-md hover:bg-gray-100">
+            <a href="https://www.linkedin.com/in/wisnuandika/" target="_blank" aria-label="LinkedIn" className="p-2 rounded-md hover:bg-gray-100">
               <FiLinkedin size={20} />
             </a>
-            <a href="mailto:your@email.com" aria-label="Email" className="p-2 rounded-md hover:bg-gray-100">
+            <a href="mailto:wisnuandika104@gmail.com" target="_blank" aria-label="Email" className="p-2 rounded-md hover:bg-gray-100">
               <FiMail size={20} />
             </a>
           </div>
-          <p className="text-xs text-gray-500">© {new Date().getFullYear()} Your Name</p>
+          <p className="text-xs text-gray-500">© {new Date().getFullYear()} Mamank Kesbor</p>
         </div>
       </aside>
 
