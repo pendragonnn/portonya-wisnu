@@ -1,7 +1,7 @@
 // src/components/Projects/Projects.jsx
 import React, { useState } from "react";
 import ProjectCard from "./ProjectCard";
-import { allProjects } from "./ProjectData";
+import { allProjects } from "./projectData";
 import { FiCode, FiSmartphone, FiFilter } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 
